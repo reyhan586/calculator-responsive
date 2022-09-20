@@ -156,10 +156,9 @@ html {
 }
 
 .zero {
-  font-family: all-font;
   font-weight: bold;
   align-self: flex-end;
-  margin-top: 4px;
+  margin-bottom: 20px;
   margin-right: 4px;
   font-size: 40px;
 }
@@ -188,6 +187,12 @@ html {
   cursor: pointer;
 }
 
+.history-memory {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
 .history-box {
   background-color: lightgray;
   grid-area: history-box;
@@ -214,6 +219,10 @@ html {
 }
 
 .memory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   background-color: lightgray;
   font-family: number-font;
   font-size: 0.8rem;
